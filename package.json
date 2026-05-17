@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "node go.js && echo 'sera que foi desta?'"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
+}
+
+
