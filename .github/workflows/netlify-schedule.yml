@@ -1,7 +1,9 @@
 name: "Netlify Scheduled Build"
 on:
   schedule:
-    - cron: "0 9 * * *"  # Runs daily at 09:00 UTC
+    - cron: "0 14 * * 1"  # 2F 15:00
+    - cron: "0 10 * * 3"  # 4f 11:00
+    - cron: "0 17 * * 5"  # 6f 18:00
   workflow_dispatch:     # Allows manual triggering too
 
 jobs:
